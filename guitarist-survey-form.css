@@ -1,0 +1,19 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 40;
+  background-image: url(https://i.imgur.com/MCdY5rN.jpg);
+
+ color:white; }
+ h1, p {text-align: center; font-family: Monospace}
+.name {display: block; margin: 1.0rem 0;}
+.email {display: block; margin: 1.0rem 0;}
+.number {display: block; margin: 1.0rem 0; width: 178}
+label {font-family: Monospace; font-size: 20px;}
+select {width: 178px}
+.description{font-size: 20px}
+.dropdown {display: block; margin: 1.0rem 0;}
+#genre {display: block; margin: 0.5rem 0;}
+#filler {display:block; margin-left: auto; margin: 0.5rem 0}
+textarea {display:block; margin:0.5rem 0;}
+#additional comments {display: block; margin: 0.5rem 0;}

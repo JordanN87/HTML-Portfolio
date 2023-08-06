@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Guitarist Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body name="body">
+    <h1 id="title">Guitarist Survey Form</h1>
+    <p id="description" class="description"> Let Us Know About You!</p>
+  <form id= "survey-form" action="https://register-demo.freecodecamp.org"></form>
+
+  <form id="survey-form">
+    <label for="name" id="name-label"> Name</name>
+  <input placeholder="Please Enter Your Name" class="name" id="name" type="text" required></input>
+  <label id= "email-label" for="email"> Email</label>
+  <input class="email" id="email" type="email" placeholder= "Please enter your email"required></input>
+ <label for="number" id=
+ "number-label"> How Many Years Have you Been Playing?</label>  
+  <input id="number" class="number" type="number"  placeholder=   "Years of experience"
+  min="1" max="100" ></input>
+  <label>What Is Your Favorite Guitar Brand?</label>
+<select class="dropdown" id="dropdown">
+  <option>Fender</option>
+  <option>Ibanez</option>
+  <option>Gibson</option>
+  <option>ESP/LTD</option>
+  <option>Jackson</option>
+  <option>Schecter</option>
+  <option>Solar</option>
+</select>
+<label for="genre" id="genre"> What is your favorite genre?</label>
+<label>
+    <input type="radio" name="genre" value="genre" /> Metal
+</label>
+<div></div>
+<label>
+<input type="radio" name="genre" value="genre" /> Rock
+</label>
+<div></div>
+<label>
+<input type="radio" name="genre" value="genre" /> Jazz
+</label>
+<div></div>
+<label>
+<input type="radio" name="genre" value="genre" /> Classical
+</label>
+<div><div>
+<label id="filler">Do you play every day?</label>
+<div><div>
+<label>
+<input value="every day" type="checkbox"> Yes</label>
+<div></div>
+<input value= "every day" type="checkbox"> No</label>
+<div></div>
+
+<label id="additonal comments">Additional Comments</label>
+<textarea placeholder:"additonal comments here"></textarea>
+<div></div>
+<input id="submit" type="submit" value="Submit">
+  </form> 
+  </body>
+</html>
+
+
+
